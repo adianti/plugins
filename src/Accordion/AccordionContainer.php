@@ -51,8 +51,8 @@ class AccordionContainer extends TElement
             parent::add($content);
         }
         
-        TStyle::importFromFile('vendor/adianti/plugins/accordion/src/accordion.css');
-        TScript::importFromFile('vendor/adianti/plugins/accordion/src/accordion.js');
+        TStyle::importFromFile('vendor/adianti/plugins/src/Accordion/accordion.css');
+        TScript::importFromFile('vendor/adianti/plugins/src/Accordion/accordion.js');
         
         parent::show();
     }
